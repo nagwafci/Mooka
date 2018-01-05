@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kids"
+    android:visibility="visible"
+    tools:context="com.example.magic.mooka.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/countAR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:layout_marginTop="50dp"
+            android:width="150dp"
+            android:height="50dp"
+
+            android:layout_gravity="center_vertical|center_horizontal"
+
+            android:onClick="countARabic"
+            android:text="@string/countAr"
+            android:textColor="#878787"
+            />
+        <Button
+            android:id="@+id/countducks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:radius="200dp"
+            android:width="150dp"
+            android:height="50dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+
+            android:onClick="countducks"
+            android:text="@string/countducks"
+            android:textColor="#878787"
+            />
+
+        <Button
+            android:id="@+id/sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+
+
+            android:width="150dp"
+            android:height="50dp"
+            android:angle="90"
+            android:background="@drawable/buttonshape"
+            android:centerX="35%"
+            android:gravity="center_vertical|center_horizontal|center"
+
+            android:onClick="sum"
+            android:radius="200dp"
+            android:text="@string/sum"
+            android:textColor="#878787" />
+
+        <Button
+            android:id="@+id/subracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:radius="200dp"
+            android:width="150dp"
+            android:height="50dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+
+            android:onClick="subtracion"
+            android:text="@string/subtraction"
+            android:textColor="#878787"
+             />
+
+
+        <Button
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:radius="200dp"
+            android:width="150dp"
+            android:height="50dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+
+            android:onClick="count"
+            android:text="@string/count"
+            android:textColor="#878787"
+            />
+
+
+
+    </LinearLayout>
+</android.support.v7.widget.LinearLayoutCompat>

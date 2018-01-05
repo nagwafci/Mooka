@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حساب ملك</string>
+    <string name="countducks">تعلم العد</string>
+    <string name="welcome">مرحبا</string>
+    <string name="good">احسنتى ملك</string>
+    <string name="sum">تعلم الجمع</string>
+    <string name="countAr">تعلم الارقام</string>
+     <string name="subtraction">تعلم الطرح</string>
+    <string name="next">التالى</string>
+    <string name="before">السابق</string>
+    <string name="right">صحيح</string>
+    <string name="wrong">خطا</string>
+    <string-array name="numbers">
+        <item>٠</item>
+        <item>١</item>
+        <item>٢</item>
+        <item>٣</item>
+        <item>٤</item>
+        <item>٥</item>
+        <item>٦</item>
+        <item>٧</item>
+        <item>٨</item>
+        <item>٩</item>
+        <item>١٠</item>
+        <item>١١</item>
+        <item>١٢</item>
+        <item>١٣</item>
+        <item>١٤</item>
+        <item>١٥</item>
+        <item>١٦</item>
+        <item>١٧</item>
+        <item>١٨</item>
+        <item>١٩</item>
+        <item>٢٠</item>
+    </string-array>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    tools:context="com.example.magic.mooka.CountAR">
+
+
+    <ImageView
+        android:id="@+id/HomeImge"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Home"
+        app:srcCompat="@drawable/myhome" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="316dp">
+
+        <ImageView
+            android:id="@+id/Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:onClick="NextNumber"
+            android:text="@string/NextNum"
+            app:srcCompat="@drawable/next" />
+
+        <ImageView
+            android:id="@+id/Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center_vertical|center"
+            android:textSize="50sp"
+            android:focusable="true" />
+
+
+        <ImageView
+            android:id="@+id/Before"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:gravity="left"
+            android:onClick="BeforeNumber"
+            android:text="@string/BeforeNum"
+            app:srcCompat="@drawable/back" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="5"
+        android:stretchMode="columnWidth"></GridView>
+
+    <ImageView
+        android:id="@+id/speaker"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:onClick="ARspeaker"
+        app:srcCompat="@drawable/speaker" />
+
+</LinearLayout>

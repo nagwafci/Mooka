@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back5"
+    android:orientation="vertical"
+    tools:context="com.example.magic.mooka.Subtraction">
+
+
+    <ImageView
+        android:id="@+id/HomeImge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="Home"
+        app:srcCompat="@drawable/myhome" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/n1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:onClick="Home"
+            app:srcCompat="@drawable/myhome" />
+
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="right|end"
+            android:paddingTop="40dp"
+            app:srcCompat="@drawable/minus" />
+
+        <ImageView
+            android:id="@+id/n2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+
+            app:srcCompat="@drawable/myhome" />
+
+        <ImageView
+            android:id="@+id/equal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+
+            android:paddingTop="40dp"
+            app:srcCompat="@drawable/equal" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/R2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="right"
+            android:onClick="R2click"
+            android:text="R2"
+            android:textColor="#871908"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/R3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="right"
+            android:onClick="R3click"
+            android:text="R3"
+            android:textColor="#f5b80f"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/R1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="end"
+            android:onClick="R1click"
+            android:text="R1"
+            android:textColor="#a527b1"
+            android:textSize="70sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0"
+        android:background="@drawable/buttonshape"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:onClick="PlayAgain"
+        android:text="@string/next"
+        android:textColor="#FF7661"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
